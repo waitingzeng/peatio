@@ -1,0 +1,9 @@
+production:
+  adapter: mysql2
+  encoding: utf8
+  host: mysql
+  database: peatio
+  username: root
+  password: 111111
+  pool: 10
+  reconnect: true

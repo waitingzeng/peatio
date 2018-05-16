@@ -1,0 +1,34 @@
+version: '3'
+services:
+  mysql:
+    container_name: mysql
+    #restart: always
+    ports:
+      - "3306:3306"
+    image: mysql/mysql-server:5.7
+    #command: "--init-file=/docker-entrypoint-initdb.d/init.sql --init-file=/docker-entrypoint-initdb.d/open_db.sql --init-file=/docker-entrypoint-initdb.d/sift_report.sql"
+    environment:
+      MYSQL_ROOT_PASSWORD: "111111"
+      MYSQL_ROOT_HOST: "%"
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq
+    ports:
+      - "5672:5672"
+  peatio:
+    build: .
+    container_name: peatio
+    links:
+      - mysql
+      - rabbitmq
+    ports:
+      - "18080:18080"
+      - "3000:3000"
+      
+    environment:
+      RAILS_ENV: "development"
+    container_name: peatio
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./peatio:/peatio
+  

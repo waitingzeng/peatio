@@ -1,0 +1,38 @@
+2018-03-04 08:38:21,705 CRIT Supervisor running as root (no user in config file)
+2018-03-04 08:38:21,708 INFO supervisord started with pid 1
+2018-03-04 10:16:02,444 WARN received SIGTERM indicating exit request
+2018-03-04 10:16:45,385 CRIT Supervisor running as root (no user in config file)
+2018-03-04 10:16:45,388 INFO supervisord started with pid 1
+2018-03-04 10:17:07,626 WARN received SIGTERM indicating exit request
+2018-03-04 10:17:10,084 CRIT Supervisor running as root (no user in config file)
+2018-03-04 10:17:10,087 INFO supervisord started with pid 1
+2018-03-04 13:13:36,450 WARN received SIGTERM indicating exit request
+2018-03-04 13:13:39,248 CRIT Supervisor running as root (no user in config file)
+2018-03-04 13:13:39,251 INFO supervisord started with pid 1
+2018-03-04 13:18:55,432 WARN received SIGTERM indicating exit request
+2018-03-04 13:18:59,234 CRIT Supervisor running as root (no user in config file)
+2018-03-04 13:18:59,236 INFO supervisord started with pid 1
+2018-03-04 13:21:21,375 WARN received SIGTERM indicating exit request
+2018-03-04 13:23:09,512 CRIT Supervisor running as root (no user in config file)
+2018-03-04 13:23:09,515 INFO supervisord started with pid 1
+2018-03-04 13:34:56,990 WARN received SIGTERM indicating exit request
+2018-03-04 13:34:59,668 CRIT Supervisor running as root (no user in config file)
+2018-03-04 13:34:59,671 INFO supervisord started with pid 1
+2018-03-04 13:42:14,159 WARN received SIGTERM indicating exit request
+2018-03-04 13:42:16,872 CRIT Supervisor running as root (no user in config file)
+2018-03-04 13:42:16,876 INFO supervisord started with pid 1
+2018-03-04 13:43:03,774 WARN received SIGTERM indicating exit request
+2018-03-04 13:43:06,466 CRIT Supervisor running as root (no user in config file)
+2018-03-04 13:43:06,468 INFO supervisord started with pid 1
+2018-03-04 13:57:37,041 WARN received SIGTERM indicating exit request
+2018-03-04 13:57:41,011 CRIT Supervisor running as root (no user in config file)
+2018-03-04 13:57:41,013 INFO supervisord started with pid 1
+2018-03-04 13:57:47,285 WARN received SIGTERM indicating exit request
+2018-03-04 13:57:50,142 CRIT Supervisor running as root (no user in config file)
+2018-03-04 13:57:50,145 INFO supervisord started with pid 1
+2018-03-05 03:20:02,322 CRIT Supervisor running as root (no user in config file)
+2018-03-05 03:20:02,325 INFO supervisord started with pid 1
+2018-03-05 14:58:17,254 WARN received SIGTERM indicating exit request
+2018-03-05 14:58:21,469 CRIT Supervisor running as root (no user in config file)
+2018-03-05 14:58:21,472 INFO supervisord started with pid 1
+2018-03-05 17:18:01,883 WARN received SIGTERM indicating exit request
