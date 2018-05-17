@@ -116,8 +116,7 @@ class Member < ActiveRecord::Base
   end
 
   def admin?
-    #@is_admin ||= self.class.admins.include?(self.email)
-    true
+    @is_admin ||= self.class.admins.include?(self.email)
   end
 
   def add_auth(auth_hash)
