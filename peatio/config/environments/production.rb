@@ -71,7 +71,8 @@ Peatio::Application.configure do
 
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.delivery_method = :smtp
+  ActionMailer::Base.delivery_method = :smtp
+
   config.action_mailer.smtp_settings = {
     port:           ENV["SMTP_PORT"],
     domain:         ENV["SMTP_DOMAIN"],
@@ -81,6 +82,17 @@ Peatio::Application.configure do
     authentication: ENV["SMTP_AUTHENTICATION"],
     ssl: true,
     enable_starttls_auto: true
+  }
+  config.action_mailer.default :charset => "utf-8"
+  ActionMailer::Base.smtp_settings = {
+      :address              => 'smtp.qq.com',
+      :port                 => 465,
+      :domain               => 'qq.com',
+      :user_name            => '171322809@qq.com',
+      :password             => 'mobwjmtaeylbcbbi',
+      :authentication       => 'plain',
+      :ssl => true,
+      :enable_starttls_auto => true
   }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
