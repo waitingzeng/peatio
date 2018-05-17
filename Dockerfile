@@ -36,12 +36,12 @@ ADD peatio/Gemfile.lock /peatio/Gemfile.lock
 RUN /root/.rbenv/shims/bundle config git.allow_insecure true && /root/.rbenv/shims/bundle install
 
 # RUN ./bin/init_config
-RUN apt-get install redis-server
+RUN apt-get install -y redis-server
 
 ADD conf/supervisord.conf /etc/supervisord.conf
 ADD conf/screenrc /etc/screenrc
 
-RUN bundle exec rake daemons:start
+#RUN bundle exec rake daemons:start
 
 # Clean up APT when done.
 #RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*

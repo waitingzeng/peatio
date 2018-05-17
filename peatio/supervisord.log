@@ -36,3 +36,8 @@
 2018-03-05 14:58:21,469 CRIT Supervisor running as root (no user in config file)
 2018-03-05 14:58:21,472 INFO supervisord started with pid 1
 2018-03-05 17:18:01,883 WARN received SIGTERM indicating exit request
+2018-05-16 16:02:56,889 CRIT Supervisor running as root (no user in config file)
+2018-05-16 16:02:56,895 INFO supervisord started with pid 1
+2018-05-16 16:17:58,469 WARN received SIGTERM indicating exit request
+2018-05-16 16:18:01,595 CRIT Supervisor running as root (no user in config file)
+2018-05-16 16:18:01,599 INFO supervisord started with pid 1
